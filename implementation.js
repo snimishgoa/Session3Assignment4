@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const quality_department_1 = require("./quality-department");
+const accounting_department_1 = require("./accounting-department");
+let qd = new quality_department_1.QualityDepartment("QualityDepartment");
+qd.printName();
+qd.printMeeting();
+qd.checkQuality();
+let ad = new accounting_department_1.AccountingDepartment("QualityDepartment");
+ad.printName();
+ad.printMeeting();
+ad.checkAccounts();
